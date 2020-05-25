@@ -6,7 +6,7 @@ COPY CustomerServiceExample /CustomerServiceExample
 
 WORKDIR /CustomerServiceExample
 
-RUN chmod +x mvnw
+RUN hmod +x mvnw
 
 RUN ./mvnw clean package
 
